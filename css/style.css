@@ -929,3 +929,24 @@ input[type=submit]:hover {
 	width: 100%;
 	border-radius: 0px;
 }
+
+
+/* IR ARRIBA */
+
+.ir-arriba {
+	display:none;
+	padding:10px;
+	background: rgb(0,0,0,0.8);
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	z-index: 1001;
+	border-radius: 10px;
+}
+
+.ir-arriba img {
+	width: 30px;
+}
