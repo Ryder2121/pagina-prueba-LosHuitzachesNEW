@@ -82,6 +82,15 @@ ul#menuUl a.active, ul#menuUl a:hover {
 	}
 }
 
+/* /////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////// */
+
+
 @media (max-width: 1015px) {
 
 	.checkbtn {
@@ -133,7 +142,7 @@ ul#menuUl a.active, ul#menuUl a:hover {
 	}
 
 	div .contenidoInicioImg {
-		padding-top: 120px;
+		padding-top: 170px;
 	}
 
 	.contenidoInicioImg img {
@@ -141,13 +150,7 @@ ul#menuUl a.active, ul#menuUl a:hover {
 	}
 
 	div .contenidoInicioText{
-		width: 100%;
-		align-items: center;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		color: white;
-		padding: 30px;
+		width: 90%;
 	}
 
 	div .contenidoInicioText h1 {
@@ -172,10 +175,219 @@ ul#menuUl a.active, ul#menuUl a:hover {
 
 
 
+	div .banners_texto {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		margin-top: 150px;
+	}
+
+	/* PRODUCTOS */
+
+	div .banners_texto img {
+		width: 250px;
+		margin-left: 40px;
+		margin-top: -45%;
+	}
+
+	div .banners_textPRODPATCH {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+
+	div .productosGrid {
+		grid-template-columns: repeat(2,1fr);
+	}
+
+
 
 
 
 }
+
+
+@media (max-width: 800px) {
+
+	/* CARDS DE INDEX ACCESOS DIRECTOS */
+
+	div .content {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	div .post {
+		height: 50px;
+	}
+
+	div .post_header {
+		margin-top: 5%;
+		width: 100%;
+		height: 90px;
+		overflow: visible;
+		/*background-color: red;*/
+		margin-bottom: 0%;
+	}
+
+	div .post_img img {
+		width: 30%;
+		position: relative;
+		text-align: center;
+		transition: .2s;
+	}
+	 /* TEXTO DE CARDS */
+	div .post_body {
+		text-align: center;
+		/*background-color: green;*/
+		transition: .2s;
+		height: 50%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	div .post_body_content {
+		transition: .2s;
+		margin-top: 20%;
+	}
+
+	div .post_body_content p {
+		margin-bottom: 30px;
+	}
+
+	div .imgkienesomos img {
+		width: 25%;
+	}
+
+
+	/* FOOTER RESPONSIVO */
+
+	div .finalPag {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	div.finalPag_content {
+		
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.finalPag_content ul {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		margin-bottom: -50px;
+	}
+
+	div .endPag {
+		grid-template-columns: repeat(1,1fr);
+		text-align: center;
+	}
+
+	div .endPag_content p {
+		font-size: 12px;
+		color: #888888;
+		width: 80%;
+	}
+
+	div .endPag_img {
+		width: -moz-fit-content;
+	   	width: -webkit-fit-content;
+	    width: fit-content;
+	    margin: auto;
+	    padding-left: 40px;
+	}
+
+	div .endPag_img img {
+		text-align: center;
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+
+	div .banners_text {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+
+	div .banners_texto {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+	div .banners_texto img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div .contenido_quien {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	/* PRODUCTOS */
+
+	div .banners_texto img {
+		width: 250px;
+		margin-left: 40px;
+		margin-top: -30%;
+	}
+
+	div .banners_textPRODPATCH {
+		grid-template-columns: repeat(1,1fr);
+		margin-top: -20px;
+	}
+
+	div .banerstextokienesPATCH img {
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -150px;
+		margin-bottom: 100px;
+	}
+
+	div .banners_textoServiciosPATCH img {
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div .productosGrid {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+
+	/* CONTACTO */
+
+	div .contactoGrid {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	div .contactologoPATCH {
+		margin-top: 30px;
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
+/* /////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////// */
+
+
 
 
 
@@ -593,6 +805,16 @@ section#bannersGen {
 	margin-left: -20%;
 }
 
+.banerstextokienesPATCH img {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.banners_textoServiciosPATCH img {
+	width: 100%;
+	padding-top: 50px;
+}
+
 .productosGrid {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
@@ -728,7 +950,7 @@ section#bannersGen {
 	width: 100%;
 	color: #fff;
 	margin: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 24px;
 }
 
